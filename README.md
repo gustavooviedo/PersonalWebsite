@@ -1,2 +1,2 @@
 # PersonalWebsite
-Personal website to display information about me and my work :)
+Personal website used to display information about me and my work ^-^
