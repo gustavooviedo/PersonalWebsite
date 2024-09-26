@@ -1,13 +1,14 @@
 import './App.css';
+import HomeTab from './components/hometab.js';
+import AboutTab from './components/abouttab.js';
+import CodingTab from './components/codingtab.js';
+import PhotographyTab from './components/photographytab.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Personal App</h1>
-        <p>
-          This is a personal app.
-        </p>
+        <HomeTab />
       </header>
     </div>
   );
