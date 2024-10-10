@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PhotographyTab = () => {
+const Photography = () => {
     return (
         <div>
             <h1>Photography</h1>
@@ -9,4 +9,4 @@ const PhotographyTab = () => {
     );
 };
 
-export default PhotographyTab;
+export default Photography;

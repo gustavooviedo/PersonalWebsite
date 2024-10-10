@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CodingTab = () => {
+const Projects = () => {
     return (
         <div>
             <h1>Welcome to the Coding Tab</h1>
@@ -9,4 +9,4 @@ const CodingTab = () => {
     );
 };
 
-export default CodingTab;
+export default Projects;
