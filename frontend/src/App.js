@@ -7,25 +7,24 @@ import Projects from './pages/Projects';
 import Photography from './pages/Photography';
 
 function App() {
-     return (
-      <Home />
-  //   <Router>
-  //     <nav>
-  //       <ul>
-  //         <li><Link to="/">Home</Link></li>
-  //         <li><Link to="/about">About Me</Link></li>
-  //         <li><Link to="/projects">Coding Projects</Link></li>
-  //         <li><Link to="/photography">Photography</Link></li>
-  //       </ul>
-  //     </nav>
-  //     <Routes>
-  //       <Route path="/" element={<Home />} />
-  //       <Route path="/about" element={<About />} />
-  //       <Route path="/projects" element={<Projects />} />
-  //       <Route path="/photography" element={<Photography />} />
-  //     </Routes>
-  //   </Router>
-     );
+  return (
+    <Router>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About Me</Link></li>
+          <li><Link to="/projects">Coding Projects</Link></li>
+          <li><Link to="/photography">Photography</Link></li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/photography" element={<Photography />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
