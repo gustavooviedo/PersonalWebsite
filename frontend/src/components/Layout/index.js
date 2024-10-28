@@ -1,12 +1,17 @@
 import './index.scss';
 import Sidebar from '../Sidebar';
+import { Outlet } from 'react-router-dom';
 
-const Home = () => {
+const Layout = () => {
     return (
-    <>
-        <Sidebar />
-    </>
-    )
+        <div className='App'>
+            <Sidebar />
+            <div className='page'>
+                <span className='tags '></span>
+                <Outlet />
+            </div>
+        </div>
+    );
 }
 
-export default Home;
+export default Layout;

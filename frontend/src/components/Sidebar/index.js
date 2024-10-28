@@ -17,7 +17,7 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
 
-            <NavLink exact="true" activeclassname="active" className="photography-link" to="/photography">
+            <NavLink exact="true" activeclassname="active" className="photos-link" to="/photos">
                 <FontAwesomeIcon icon={faCamera} color="#4d4d4e" />
             </NavLink>
             
