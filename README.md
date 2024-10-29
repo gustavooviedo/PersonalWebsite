@@ -1,2 +1,2 @@
-# PersonalWebsite
-Personal website used to display information about me and my work ^-^
+# Personal Website
+Created my own website that will be used for self-marketing, displaying my projects, and information about myself.

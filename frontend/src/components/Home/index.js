@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import BoldG from '../../assets/images/BoldG.png';
+import NewLogo from '../../assets/images/NewLogo.PNG';
 import './index.scss';
 
 const Home = () => {
@@ -7,10 +7,10 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi, <br /> I'm  
-                <img src={BoldG} alt="developer" />
-                ustavo
+                <img src={NewLogo} alt="developer" />
+                ustavo,
                 <br />
-                Web Developer
+                Web Developer.
                 </h1>
                 <h2>Frontend Developer / Photographer</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
