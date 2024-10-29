@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import LogoG from '../../assets/images/LogoG.png';
+import BoldG from '../../assets/images/BoldG.png';
 import './index.scss';
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi, <br /> I'm  
-                <img src={LogoG} alt="developer" />
+                <img src={BoldG} alt="developer" />
                 ustavo
                 <br />
                 Web Developer
